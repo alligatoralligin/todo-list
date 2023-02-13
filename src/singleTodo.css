@@ -1,0 +1,39 @@
+.singleTodoBox {
+  background-image: url("https://pixabay.com/get/gfbdd36ca61542433df92932fcf20841013b157ef4d29340a0a7719f25602cf62401f95df259d0556099e5858c13bd9469a5eaba46dd31deee8657aba4555b9ca5c1068c25e5c2460239a4c8adc9fede1_640.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 225px;
+  width: 225px;
+  margin-top: 10px;
+  list-style: none;
+}
+
+.textArea {
+  max-width: 180px;
+  word-wrap: break-word;
+  transform: translate(20px, 75px);
+  text-align: center;
+  font-family: "Permanent Marker", cursive;
+}
+.textArea input[type="text"] {
+  font-family: "Permanent Marker", cursive;
+}
+
+.editImg {
+  width: 15px;
+  height: 15px;
+}
+.deleteImg {
+  width: 15px;
+  height: 15px;
+}
+
+.textArea .finished {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.finishedIcon {
+  width: 15px;
+  height: 15px;
+}
